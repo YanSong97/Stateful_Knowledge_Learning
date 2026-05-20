@@ -1,0 +1,2 @@
+- name: game_value_infer_agent
+  _target_: src.agent_loop.GameValueInfer_AgentLoop

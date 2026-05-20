@@ -1,0 +1,43 @@
+# requirements.txt records the full set of dependencies for development
+accelerate
+codetiming
+datasets
+dill
+hydra-core
+liger-kernel
+numpy
+pandas
+peft
+pyarrow>=19.0.0
+pybind11
+pylatexenc
+pre-commit
+ray[default]
+tensordict<=0.6.2
+torchdata
+transformers==4.52.4        # for latest tokenizer for correct assistant mask
+# vllm==0.8.4
+wandb
+packaging>=20.0
+uvicorn
+fastapi
+openai
+
+# vllm
+vllm==0.10.0
+torch==2.7.1
+flash-attn==2.7.3
+
+# for gym
+gym
+gymnasium
+gym_tictactoe
+
+# for vl
+qwen_vl_utils
+
+# for mcp
+fastmcp
+
+# for chess
+chess==1.11.2
